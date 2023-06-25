@@ -28,7 +28,9 @@ const (
 	BCH        = ZeroQuote + 145
 	QTUM       = ZeroQuote + 2301
 	TRX        = ZeroQuote + 195
+	AVAX       = ZeroQuote + 713
 	BNB        = ZeroQuote + 714
+	MATIC      = ZeroQuote + 9999
 	FIL        = ZeroQuote + 461
 
 	// btc token
@@ -50,6 +52,9 @@ var coinTypes = map[uint32]uint32{
 	IOST: ETH,
 	USDC: ETH,
 	TRX:  TRX,
-	BNB:  BNB,
-	FIL:  FIL,
+	//BNB:  BNB,
+	BNB:   ETH, // BNB与ETH地址相同
+	AVAX:  ETH, // AVAX与ETH地址相同
+	MATIC: ETH, // MATIC与ETH地址相同
+	FIL:   FIL,
 }

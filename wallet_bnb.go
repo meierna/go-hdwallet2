@@ -1,5 +1,7 @@
 package hdwallet
 
+import "github.com/ethereum/go-ethereum/crypto"
+
 func init() {
 	coins[BNB] = newBNB
 }
@@ -38,7 +40,8 @@ func (c *bnb) GetKey() *Key {
 }
 
 func (c *bnb) GetAddress() (string, error) {
-	return c.key.AddressBNB(MAINNET)
+	//return c.key.AddressBNB(MAINNET)
+	return crypto.PubkeyToAddress(*c.key.PublicECDSA).Hex(), nil
 }
 
 func (c *bnb) GetPrivateKey() (string, error) {
