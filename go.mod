@@ -11,6 +11,7 @@ require (
 	github.com/fbsobreira/gotron-sdk v0.0.0-20210810183618-c8cf2a5f46d5
 	github.com/filecoin-project/go-address v0.0.4
 	github.com/myxtype/filecoin-client v0.3.2
+	github.com/portto/solana-go-sdk v1.24.0
 	github.com/tendermint/tendermint v0.32.3
 	github.com/tyler-smith/go-bip39 v1.1.0
 )
@@ -31,7 +32,7 @@ require (
 	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 // indirect
 	github.com/minio/sha256-simd v0.1.1-0.20190913151208-6de447530771 // indirect
-	github.com/mr-tron/base58 v1.1.3 // indirect
+	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/multiformats/go-base32 v0.0.3 // indirect
 	github.com/multiformats/go-base36 v0.1.0 // indirect
 	github.com/multiformats/go-multibase v0.0.3 // indirect

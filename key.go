@@ -122,6 +122,7 @@ func (k *Key) GetChildKey(opts ...Option) (*Key, error) {
 // GetWallet return wallet from master key
 // params: [Purpose], [CoinType], [Account], [Change], [AddressIndex], [Path]
 func (k *Key) GetWallet(opts ...Option) (Wallet, error) {
+	opts = append(opts, Mnemonic(k.Opt.Mnemonic))
 	key, err := k.GetChildKey(opts...)
 	if err != nil {
 		return nil, err
@@ -287,4 +288,9 @@ func (k *Key) AddressFIL(network string) (string, error) {
 	}
 
 	return addr.String(), nil
+}
+
+func (k *Key) AddressSOL() (string, error) {
+	newCoin := coins[k.Opt.Change]
+	return newCoin(k).GetAddress()
 }

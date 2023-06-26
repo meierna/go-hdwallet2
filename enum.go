@@ -26,6 +26,7 @@ const (
 	ETH        = ZeroQuote + 60
 	ETC        = ZeroQuote + 61
 	BCH        = ZeroQuote + 145
+	SOL        = ZeroQuote + 501
 	QTUM       = ZeroQuote + 2301
 	TRX        = ZeroQuote + 195
 	AVAX       = ZeroQuote + 713
