@@ -49,7 +49,7 @@ const (
 )
 
 var coinTypes = map[uint32]uint32{
-	USDT: BTC,
+	USDT: ETH,
 	IOST: ETH,
 	USDC: ETH,
 	TRX:  TRX,
