@@ -33,6 +33,7 @@ const (
 	BNB        = ZeroQuote + 714
 	MATIC      = ZeroQuote + 9999
 	FIL        = ZeroQuote + 461
+	SUI        = ZeroQuote + 784
 
 	// btc token
 	USDT = BTCToken + 1
@@ -58,4 +59,5 @@ var coinTypes = map[uint32]uint32{
 	AVAX:  ETH, // AVAX与ETH地址相同
 	MATIC: ETH, // MATIC与ETH地址相同
 	FIL:   FIL,
+	SUI:   SUI,
 }

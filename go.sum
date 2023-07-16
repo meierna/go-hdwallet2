@@ -64,6 +64,8 @@ github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+Ce
 github.com/binance-chain/go-sdk v1.2.6 h1:hF96rRGNznNwqLbFeD+wpfmFFK2UCnhm0TZ5imnaKgw=
 github.com/binance-chain/go-sdk v1.2.6/go.mod h1:WFOTNRkp3JmWEuGAmNFw+7WbK7DG8ZzEWmw4Ym4Mb0M=
 github.com/binance-chain/ledger-cosmos-go v0.9.9-binance.1/go.mod h1:FI6WAujuiBpoSavYreux2zTKyrUkngXDlRJczxsDK5M=
+github.com/block-vision/sui-go-sdk v1.0.2 h1:kHMqo15krkiBuwCoOAF6GruemBoLlNC2+MRdXn+EjOI=
+github.com/block-vision/sui-go-sdk v1.0.2/go.mod h1:hHjWU6O/cRYanNme8ICiPh+3uDrKlz/Q40rDv3yCxgw=
 github.com/bmizerany/pat v0.0.0-20170815010413-6226ea591a40/go.mod h1:8rLXio+WjiTceGBHIoTvn60HIbs7Hm7bcHjyrSqYB9c=
 github.com/boltdb/bolt v1.3.1/go.mod h1:clJnj/oiGkjum5o1McbSZDSLxVThjynRyGBgiAx27Ps=
 github.com/btcsuite/btcd v0.0.0-20171128150713-2e60448ffcc6/go.mod h1:Dmm/EzmjnCiweXmzRIAiUWCInVmPgjkzgv5k4tVyXiQ=

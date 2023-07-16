@@ -17,6 +17,7 @@ require (
 )
 
 require (
+	github.com/block-vision/sui-go-sdk v1.0.2 // indirect
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/filecoin-project/go-state-types v0.0.0-20201013222834-41ea465f274f // indirect
